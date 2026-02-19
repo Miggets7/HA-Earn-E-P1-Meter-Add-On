@@ -1,0 +1,11 @@
+{
+  "domain": "p1_meter",
+  "name": "Dongle Connect P1 Meter",
+  "codeowners": [],
+  "config_flow": true,
+  "documentation": "https://github.com/Byrt/HA-Dongle-Connect-P1-Meter",
+  "integration_type": "device",
+  "iot_class": "local_push",
+  "requirements": [],
+  "version": "1.0.0"
+}

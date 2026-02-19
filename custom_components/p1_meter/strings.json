@@ -1,0 +1,58 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to P1 Meter",
+        "description": "Enter the IP address of your Dongle Connect P1 Meter.",
+        "data": {
+          "host": "IP Address"
+        }
+      },
+      "reconfigure": {
+        "title": "Reconfigure P1 Meter",
+        "description": "Update the IP address of your Dongle Connect P1 Meter.",
+        "data": {
+          "host": "IP Address"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This P1 Meter is already configured.",
+      "reconfigure_successful": "Reconfiguration successful."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "power_delivered": {
+        "name": "Power Delivered"
+      },
+      "power_returned": {
+        "name": "Power Returned"
+      },
+      "voltage_l1": {
+        "name": "Voltage L1"
+      },
+      "current_l1": {
+        "name": "Current L1"
+      },
+      "energy_delivered_tariff1": {
+        "name": "Energy Delivered Tariff 1"
+      },
+      "energy_delivered_tariff2": {
+        "name": "Energy Delivered Tariff 2"
+      },
+      "energy_returned_tariff1": {
+        "name": "Energy Returned Tariff 1"
+      },
+      "energy_returned_tariff2": {
+        "name": "Energy Returned Tariff 2"
+      },
+      "gas_delivered": {
+        "name": "Gas Delivered"
+      },
+      "wifi_rssi": {
+        "name": "WiFi RSSI"
+      }
+    }
+  }
+}
