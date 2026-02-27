@@ -1,0 +1,62 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Verbind met EARN-E P1 Meter",
+        "description": "Er is geen apparaat gevonden. Voer het IP-adres van je EARN-E energiemonitor handmatig in.",
+        "data": {
+          "host": "IP-adres"
+        }
+      },
+      "discovery_confirm": {
+        "title": "EARN-E P1 Meter gevonden",
+        "description": "Er is een EARN-E P1 Meter gevonden op **{host}**."
+      },
+      "reconfigure": {
+        "title": "EARN-E P1 Meter herconfigureren",
+        "description": "Werk het IP-adres van je EARN-E energiemonitor bij.",
+        "data": {
+          "host": "IP-adres"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Deze EARN-E P1 Meter is al geconfigureerd.",
+      "reconfigure_successful": "Herconfiguratie geslaagd."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "power_delivered": {
+        "name": "Vermogen geleverd"
+      },
+      "power_returned": {
+        "name": "Vermogen teruggeleverd"
+      },
+      "voltage_l1": {
+        "name": "Spanning L1"
+      },
+      "current_l1": {
+        "name": "Stroom L1"
+      },
+      "energy_delivered_tariff1": {
+        "name": "Energie geleverd tarief 1"
+      },
+      "energy_delivered_tariff2": {
+        "name": "Energie geleverd tarief 2"
+      },
+      "energy_returned_tariff1": {
+        "name": "Energie teruggeleverd tarief 1"
+      },
+      "energy_returned_tariff2": {
+        "name": "Energie teruggeleverd tarief 2"
+      },
+      "gas_delivered": {
+        "name": "Gas geleverd"
+      },
+      "wifi_rssi": {
+        "name": "WiFi RSSI"
+      }
+    }
+  }
+}
