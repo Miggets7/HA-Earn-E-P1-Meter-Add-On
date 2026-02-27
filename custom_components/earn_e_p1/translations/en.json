@@ -3,7 +3,7 @@
     "step": {
       "user": {
         "title": "Connect to EARN-E P1 Meter",
-        "description": "No device was automatically discovered. Enter the IP address of your EARN-E energy monitor manually.",
+        "description": "No device was discovered. Enter the IP address of your EARN-E energy monitor manually.",
         "data": {
           "host": "IP Address"
         }
