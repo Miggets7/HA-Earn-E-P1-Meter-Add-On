@@ -9,12 +9,12 @@ from homeassistant.components.sensor import (
     SensorStateClass,
 )
 from homeassistant.const import (
+    SIGNAL_STRENGTH_DECIBELS_MILLIWATT,
     UnitOfElectricCurrent,
     UnitOfElectricPotential,
     UnitOfEnergy,
     UnitOfPower,
     UnitOfVolume,
-    SIGNAL_STRENGTH_DECIBELS_MILLIWATT,
 )
 
 DOMAIN = "earn_e_p1"

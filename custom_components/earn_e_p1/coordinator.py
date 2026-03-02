@@ -29,7 +29,6 @@ class EarnEP1UDPProtocol(asyncio.DatagramProtocol):
         source_ip = addr[0]
         if source_ip != self.host:
             return
-
         try:
             payload = json.loads(data)
         except (json.JSONDecodeError, UnicodeDecodeError):
@@ -97,11 +96,11 @@ class EarnEP1Coordinator(DataUpdateCoordinator[dict[str, Any]]):
             allow_broadcast=True,
         )
         self._transport = transport
-        _LOGGER.debug("EARN-E P1 UDP listener started on port %s", DEFAULT_PORT)
+        _LOGGER.debug("UDP listener started on port %s", DEFAULT_PORT)
 
     async def async_stop(self) -> None:
         """Stop listening for UDP packets."""
         if self._transport:
             self._transport.close()
             self._transport = None
-            _LOGGER.debug("EARN-E P1 UDP listener stopped")
+            _LOGGER.debug("UDP listener stopped")
