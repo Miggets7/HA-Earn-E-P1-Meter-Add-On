@@ -32,6 +32,7 @@
     },
     "abort": {
       "already_configured": "Deze EARN-E P1 Meter is al geconfigureerd.",
+      "single_instance_allowed": "Al geconfigureerd. Er is slechts één configuratie mogelijk.",
       "reconfigure_successful": "Herconfiguratie geslaagd."
     }
   },

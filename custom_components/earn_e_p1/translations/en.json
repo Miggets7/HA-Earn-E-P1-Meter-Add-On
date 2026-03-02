@@ -32,6 +32,7 @@
     },
     "abort": {
       "already_configured": "This EARN-E P1 Meter is already configured.",
+      "single_instance_allowed": "Already configured. Only a single configuration possible.",
       "reconfigure_successful": "Reconfiguration successful."
     }
   },
